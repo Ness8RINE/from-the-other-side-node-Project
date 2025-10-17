@@ -32,7 +32,7 @@ form.addEventListener("submit", async function (event) {
   }
   const readableDate = date.toLocaleString("en-GB", options)
 
-  const formData = {
+  const formData = { 
     location: location,
     timeStamp: readableDate,
     text: text,
