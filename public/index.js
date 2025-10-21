@@ -36,4 +36,4 @@ document.querySelector(".cards-container").addEventListener("click", (e) => {
 
   button.setAttribute("aria-expanded", isExpanded ? "true" : "false")
   button.textContent = isExpanded ? "Show less" : "Read in full"
-})
+}) 

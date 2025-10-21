@@ -10,7 +10,7 @@ form.addEventListener("submit", async function (event) {
 
   if (!location || !text || !title) {
     formMessageText.textContent = `Please complete all fields!`
-    return
+    return 
   }
 
   const isoDateString = document.getElementById("datetime").value
@@ -18,7 +18,7 @@ form.addEventListener("submit", async function (event) {
   if (!isoDateString) {
     formMessageText.textContent = "Please select a date and time!"
     return
-  }
+  } 
   // Convert the string to a JavaScript Date object
   const date = new Date(isoDateString)
   // Format the date to a readable string
